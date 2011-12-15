@@ -17,6 +17,18 @@ $(document).ready(function() {
       return false
     });
   });
+  $('#rexburg').click(function() {
+    $('#rexburg ul').show('fast', function() {
+      // Animation complete.
+      return false
+    });
+  });
+  $('#burley').click(function() {
+    $('#burley ul').show('fast', function() {
+      // Animation complete.
+      return false
+    });
+  });
   $('.nav').mouseleave(function() {
     $('.nav ul').fadeOut("fast");
   });
