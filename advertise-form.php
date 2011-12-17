@@ -15,7 +15,7 @@
         header('Location: advertise.php#bottom');
     }
     else{
-        $_SESSION['message'] = 'Sorry, there was a problem. Please try again.';
+        $_SESSION['message'] = 'Sorry, please try again.';
         header('Location: advertise.php#bottom');
     }
 ?>
