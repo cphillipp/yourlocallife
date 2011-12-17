@@ -111,11 +111,11 @@ if($_SESSION['message']) {
         <ul>
           <li><a href="about.html">about us</a></li>
           <li>&#8226;</li>
-          <li><a href="advertise.html">advertise with us</a></li>
+          <li><a href="advertise.php">advertise with us</a></li>
           <li>&#8226;</li>
           <li><a href="how-it-works.html">how it works</a></li>
           <li>&#8226;</li>
-          <li><a href="referral.html">refer a friend</a></li>
+          <li><a href="referral.php">refer a friend</a></li>
         </ul>
         <p>&copy; 2011 your local life</p>
       </div>
