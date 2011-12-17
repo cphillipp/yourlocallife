@@ -92,9 +92,9 @@ if($_SESSION['message']) {
         <p class="refer">Simple paragraph about how to refer a friend. Anything you want to say to your customers.</p>
         <form method="post" action="refer-form.php">
           <label>Your Email</label>
-          <input type="text" name="yourEmail" value="email" onFocus="if(this.value=='email'){this.value=''}" onBlur="if(this.value==''){this.value='email'}" />
+          <input required type="text" name="yourEmail" value="email" onFocus="if(this.value=='email'){this.value=''}" onBlur="if(this.value==''){this.value='email'}" />
           <label>Friends Email</label>
-          <input type="text" name="thereEmail" value="email" onFocus="if(this.value=='email'){this.value=''}" onBlur="if(this.value==''){this.value='email'}" />
+          <input required type="text" name="thereEmail" value="email" onFocus="if(this.value=='email'){this.value=''}" onBlur="if(this.value==''){this.value='email'}" />
           <?php
             if(isset($display_message)) {
               echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";

@@ -92,13 +92,13 @@ if($_SESSION['message']) {
         <p class="refer">Simple paragraph about how to advertise with your business. Anything you want to say to your customers.</p>
         <form method="post" action="advertise-form.php">
           <label>Business Name</label>
-          <input type="text" name="name" value="name" onFocus="if(this.value=='name'){this.value=''}" onBlur="if(this.value==''){this.value='name'}" />
+          <input required type="text" name="name" value="name" onFocus="if(this.value=='name'){this.value=''}" onBlur="if(this.value==''){this.value='name'}" />
           <label>Business Address</label>
-          <input type="text" name="address" value="address" onFocus="if(this.value=='address'){this.value=''}" onBlur="if(this.value==''){this.value='address'}" />
+          <input required type="text" name="address" value="address" onFocus="if(this.value=='address'){this.value=''}" onBlur="if(this.value==''){this.value='address'}" />
           <label>Business Phone</label>
-          <input type="text" name="phone" value="phone" onFocus="if(this.value=='phone'){this.value=''}" onBlur="if(this.value==''){this.value='phone'}" />
+          <input required type="text" name="phone" value="phone" onFocus="if(this.value=='phone'){this.value=''}" onBlur="if(this.value==''){this.value='phone'}" />
           <label>Business Email</label>
-          <input type="text" name="email" value="email" onFocus="if(this.value=='email'){this.value=''}" onBlur="if(this.value==''){this.value='email'}" />
+          <input required type="text" name="email" value="email" onFocus="if(this.value=='email'){this.value=''}" onBlur="if(this.value==''){this.value='email'}" />
           <?php
             if(isset($display_message)) {
               echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
