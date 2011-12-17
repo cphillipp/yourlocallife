@@ -1,7 +1,7 @@
 <?php
     session_start();
     $to = "clayphillipp@gmail.com";
-    $subject = "Contact Us";
+    $subject = "Advertise Form";
     $email = $_POST['email'];
     $address = $_POST['address'];
     $message = $_POST['message'];

@@ -1,10 +1,10 @@
 <?php
     session_start();
     $to = "clayphillipp@gmail.com";
-    $subject = "Refer Form";
-    $your = $_POST['yourEmail'];
-    $there = $_POST['thereEmail'];
-    $message = $your . "\n ". $there;
+    $subject = "Advertise Form";
+    $yourEmail = $_POST['yourEmail'];
+    $thereEmail = $_POST['thereEmail'];
+    $message = $yourEmail . "\n ". $thereEmail;
     $headers = "From: $email";
     $sent = mail($to, $subject, $message, $headers);
     if($sent) {
