@@ -94,7 +94,7 @@ if($_SESSION['message']) {
           <label>Your Email</label>
           <input type="text" name="name" value="email" onFocus="if(this.value=='email'){this.value=''}" onBlur="if(this.value==''){this.value='email'}" />
           <label>Friends Email</label>
-          <input type="text" name="address" value="email" onFocus="if(this.value=='email'){this.value=''}" onBlur="if(this.value==''){this.value='email'}" />
+          <input type="text" name="email" value="email" onFocus="if(this.value=='email'){this.value=''}" onBlur="if(this.value==''){this.value='email'}" />
           <?php
             if(isset($display_message)) {
               echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
