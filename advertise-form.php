@@ -12,10 +12,10 @@
     $sent = mail($to, $subject, $message, $headers);
     if($sent) {
         $_SESSION['message'] = 'Thank You';
-        header('Location: contact.php#bottom');
+        header('Location: advertise.php#bottom');
     }
     else{
         $_SESSION['message'] = 'Sorry, there was a problem. Please try again.';
-        header('Location: contact.php#bottom');
+        header('Location: advertise.php#bottom');
     }
 ?>
