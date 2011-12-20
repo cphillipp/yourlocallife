@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $to = "clayphillipp@gmail.com";
+    $to = "admin@yourlocallife.com";
     $subject = "Advertise Form";
     $email = $_POST['email'];
     $address = $_POST['address'];
