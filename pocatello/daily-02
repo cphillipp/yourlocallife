@@ -83,7 +83,7 @@
       </div>
       <!-- <img src="images/banner01.jpg" alt="" /> -->
       <div class="main-cat">
-        <img src="images/product/product01.jpg" alt="" />
+        <img src="images/product/blanket.jpg" alt="" />
         <h1>Stocking Stuffers</h1>
         <p class="description">$30 to Spend on Holiday Shopping</p>
         <p class="price">&#36;15</p>
@@ -93,7 +93,7 @@
           <li class="middle">16,232<span>purchased</span></li>
           <li>1 day<span>remaining</span></li>
         </ul>
-        <p class="about">During the holiday season, you hit the malls looking for two things: a parking spot and that perfect gift with your loved one's name (or your own) written all over it. Skip the traffic and the guesswork with today's deal: Pay $15 for $30 to spend on merchandise from.</p>
+        <p class="about">1200D horse blankets</p>
         <p class="expiration">Offer Expires - <span>10/01/11, 03:00pm</span></p>
         <div class="extra">
           <h2>the fine print</h2>
@@ -101,9 +101,9 @@
         </div>
       </div>
       <div class="sub-cat">
-        <h2>daily deals</h2>
+        <h2>daily deal</h2>
         <ul>
-          <li><a href="daily-02"><img src="images/product/blanket.jpg" alt="" /></a><h3>Stocking Stuffers</h3><p class="description">$30 to Spend on Holiday Shopping</p><p class="city">Idaho Falls</p><p class="price"><span>$37</span>$15</p><a href="daily-02" class="button">view</a></li>
+          <li><a href="daily-02"><img src="images/product/product01.jpg" alt="" /></a><h3>Stocking Stuffers</h3><p class="description">$30 to Spend on Holiday Shopping</p><p class="city">Idaho Falls</p><p class="price"><span>$37</span>$15</p><a href="#link" class="button">view</a></li>
           <li><a href="#link"><img src="images/product/product01.jpg" alt="" /></a><h3>Stocking Stuffers</h3><p class="description">$30 to Spend on Holiday Shopping</p><p class="city">Idaho Falls</p><p class="price"><span>$37</span>$15</p><a href="#link" class="button">view</a></li>
           <li><a href="#link"><img src="images/product/product01.jpg" alt="" /></a><h3>Stocking Stuffers</h3><p class="description">$30 to Spend on Holiday Shopping</p><p class="city">Idaho Falls</p><p class="price"><span>$37</span>$15</p><a href="#link" class="button">view</a></li>
           <li><a href="#link"><img src="images/product/product01.jpg" alt="" /></a><h3>Stocking Stuffers</h3><p class="description">$30 to Spend on Holiday Shopping</p><p class="city">Idaho Falls</p><p class="price"><span>$37</span>$15</p><a href="#link" class="button">view</a></li>
