@@ -104,7 +104,7 @@ if($_SESSION['message']) {
         </form>
         <div class="extra">
           <h2>fine print</h2>
-          <p>Simple paragraph about how to refer a friend. Anything you want to say to your customers.</p>
+          <p>Purchase is required to be entered into the drawing. The drawing will be based upon the email addresses that are submitted and that are associated with purchases. Any submissions with an invalid e-mail address will be void. Multiple refferals are encouraged to increase your odds at winning the HDTV. </p>
         </div>
       </div>
       <div class="footer">

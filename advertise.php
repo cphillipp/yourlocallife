@@ -107,8 +107,8 @@ if($_SESSION['message']) {
           <input type="submit" value="Submit" class="button" />
         </form>
         <div class="extra">
-          <h2>fine print</h2>
-          <p>Simple paragraph about how to refer a friend. Anything you want to say to your customers.</p>
+          <h2></h2>
+          <p></p>
         </div>
       </div>
       <div class="footer">
