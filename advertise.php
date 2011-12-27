@@ -89,7 +89,7 @@ if($_SESSION['message']) {
         <h2>Advertise with Us</h2>
       </div>
       <div class="main-cat">
-        <p class="refer">Simple paragraph about how to advertise with your business. Anything you want to say to your customers.</p>
+        <p class="refer">With a business modeled after some of the most successful web marketing companies, Your Local Life is destined to succeed. Hard work and dedication are the heart and soul of this company. Each deal is negotiated to not only bring exceptional products and service to the consumer but to help local business grow. These days’ traditional marketing and advertising can be costly and ineffective. With Your Local Life you are guaranteed results or there is absolutely no cost to you. </p>
         <form method="post" action="advertise-form.php">
           <label>Business Name</label>
           <input type="text" name="name" value="name" onFocus="if(this.value=='name'){this.value=''}" onBlur="if(this.value==''){this.value='name'}" />
