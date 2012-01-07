@@ -36,14 +36,14 @@ if($_SESSION['message']) {
     <div class="left">
       <h1 class="logo"><a href="index.html">ez deals</a></h1>
       <ul class="nav">
-        <li id="pocatello"><a href="#link">Pocatello</a>
+        <li id="pocatello"><a href="#link">East Idaho</a>
           <ul>
             <li><a href="pocatello/daily-01.html">daily deals</a></li>
             <li><a href="pocatello/vacation-01.html">vacation</a></li>
             <li><a href="pocatello/activity-01.html">activity</a></li>
             <li><a href="pocatello/food-01.html">food</a></li>
             <li><a href="pocatello/health-01.html">health/beauty</a></li>
-          </ul>
+          </ul><!--
         </li>
         <li id="idahoFalls"><a href="#link">Idaho Falls</a>
           <ul>
@@ -52,16 +52,16 @@ if($_SESSION['message']) {
             <li><a href="idaho-falls/activity-01.html">activity</a></li>
             <li><a href="idaho-falls/food-01.html">food</a></li>
             <li><a href="idaho-falls/health-01.html">health/beauty</a></li>
-          </ul>
+          </ul>-->
         </li>
-        <li id="twinFalls"><a href="#link">Twin Falls</a>
+        <li id="twinFalls"><a href="#link">Magic Valley</a>
           <ul>
             <li><a href="twin-falls/daily-01.html">daily deals</a></li>
             <li><a href="twin-falls/vacation-01.html">vacation</a></li>
             <li><a href="twin-falls/activity-01.html">activity</a></li>
             <li><a href="twin-falls/food-01.html">food</a></li>
             <li><a href="twin-falls/health-01.html">health/beauty</a></li>
-          </ul>
+          </ul><!--
         </li>
         <li id="rexburg"><a href="#link">Rexburg</a>
           <ul>
@@ -79,7 +79,7 @@ if($_SESSION['message']) {
             <li><a href="burley/activity-01.html">activity</a></li>
             <li><a href="burley/food-01.html">food</a></li>
             <li><a href="burley/health-01.html">health/beauty</a></li>
-          </ul>
+          </ul>-->
         </li>
       </ul>
     </div>
