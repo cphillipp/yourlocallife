@@ -36,14 +36,14 @@ if($_SESSION['message']) {
     <div class="left">
       <h1 class="logo"><a href="index.html">ez deals</a></h1>
       <ul class="nav">
-        <li id="pocatello"><a href="#link">Pocatello</a>
+        <li id="pocatello"><a href="#link">East Idaho</a>
           <ul>
             <li><a href="pocatello/daily-01.html">daily deals</a></li>
             <li><a href="pocatello/vacation-01.html">vacation</a></li>
             <li><a href="pocatello/activity-01.html">activity</a></li>
             <li><a href="pocatello/food-01.html">food</a></li>
             <li><a href="pocatello/health-01.html">health/beauty</a></li>
-          </ul>
+          </ul><!--
         </li>
         <li id="idahoFalls"><a href="#link">Idaho Falls</a>
           <ul>
@@ -52,16 +52,16 @@ if($_SESSION['message']) {
             <li><a href="idaho-falls/activity-01.html">activity</a></li>
             <li><a href="idaho-falls/food-01.html">food</a></li>
             <li><a href="idaho-falls/health-01.html">health/beauty</a></li>
-          </ul>
+          </ul>-->
         </li>
-        <li id="twinFalls"><a href="#link">Twin Falls</a>
+        <li id="twinFalls"><a href="#link">Magic Valley</a>
           <ul>
             <li><a href="twin-falls/daily-01.html">daily deals</a></li>
             <li><a href="twin-falls/vacation-01.html">vacation</a></li>
             <li><a href="twin-falls/activity-01.html">activity</a></li>
             <li><a href="twin-falls/food-01.html">food</a></li>
             <li><a href="twin-falls/health-01.html">health/beauty</a></li>
-          </ul>
+          </ul><!--
         </li>
         <li id="rexburg"><a href="#link">Rexburg</a>
           <ul>
@@ -79,7 +79,7 @@ if($_SESSION['message']) {
             <li><a href="burley/activity-01.html">activity</a></li>
             <li><a href="burley/food-01.html">food</a></li>
             <li><a href="burley/health-01.html">health/beauty</a></li>
-          </ul>
+          </ul>-->
         </li>
       </ul>
     </div>
@@ -89,7 +89,7 @@ if($_SESSION['message']) {
         <h2>Advertise with Us</h2>
       </div>
       <div class="main-cat">
-        <p class="refer">Simple paragraph about how to advertise with your business. Anything you want to say to your customers.</p>
+        <p class="refer">With a business modeled after some of the most successful web marketing companies, Your Local Life is destined to succeed. Hard work and dedication are the heart and soul of this company. Each deal is negotiated to not only bring exceptional products and service to the consumer but to help local business grow. These days’ traditional marketing and advertising can be costly and ineffective. With Your Local Life you are guaranteed results or there is absolutely no cost to you. </p>
         <form method="post" action="advertise-form.php">
           <label>Business Name</label>
           <input type="text" name="name" value="name" onFocus="if(this.value=='name'){this.value=''}" onBlur="if(this.value==''){this.value='name'}" />
@@ -107,8 +107,8 @@ if($_SESSION['message']) {
           <input type="submit" value="Submit" class="button" />
         </form>
         <div class="extra">
-          <h2>fine print</h2>
-          <p>Simple paragraph about how to refer a friend. Anything you want to say to your customers.</p>
+          <h2></h2>
+          <p></p>
         </div>
       </div>
       <div class="footer">

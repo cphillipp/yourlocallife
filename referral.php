@@ -36,14 +36,14 @@ if($_SESSION['message']) {
     <div class="left">
       <h1 class="logo"><a href="index.html">ez deals</a></h1>
       <ul class="nav">
-        <li id="pocatello"><a href="#link">Pocatello</a>
+        <li id="pocatello"><a href="#link">East Idaho</a>
           <ul>
             <li><a href="pocatello/daily-01.html">daily deals</a></li>
             <li><a href="pocatello/vacation-01.html">vacation</a></li>
             <li><a href="pocatello/activity-01.html">activity</a></li>
             <li><a href="pocatello/food-01.html">food</a></li>
             <li><a href="pocatello/health-01.html">health/beauty</a></li>
-          </ul>
+          </ul><!--
         </li>
         <li id="idahoFalls"><a href="#link">Idaho Falls</a>
           <ul>
@@ -52,16 +52,16 @@ if($_SESSION['message']) {
             <li><a href="idaho-falls/activity-01.html">activity</a></li>
             <li><a href="idaho-falls/food-01.html">food</a></li>
             <li><a href="idaho-falls/health-01.html">health/beauty</a></li>
-          </ul>
+          </ul>-->
         </li>
-        <li id="twinFalls"><a href="#link">Twin Falls</a>
+        <li id="twinFalls"><a href="#link">Magic Vally</a>
           <ul>
             <li><a href="twin-falls/daily-01.html">daily deals</a></li>
             <li><a href="twin-falls/vacation-01.html">vacation</a></li>
             <li><a href="twin-falls/activity-01.html">activity</a></li>
             <li><a href="twin-falls/food-01.html">food</a></li>
             <li><a href="twin-falls/health-01.html">health/beauty</a></li>
-          </ul>
+          </ul><!--
         </li>
         <li id="rexburg"><a href="#link">Rexburg</a>
           <ul>
@@ -79,7 +79,7 @@ if($_SESSION['message']) {
             <li><a href="burley/activity-01.html">activity</a></li>
             <li><a href="burley/food-01.html">food</a></li>
             <li><a href="burley/health-01.html">health/beauty</a></li>
-          </ul>
+          </ul>-->
         </li>
       </ul>
     </div>
@@ -89,7 +89,7 @@ if($_SESSION['message']) {
         <h2>Refer a Friend</h2>
       </div>
       <div class="main-cat">
-        <p class="refer">Simple paragraph about how to refer a friend. Anything you want to say to your customers.</p>
+        <p class="refer">We are giving away a HD TV! One of the first 500 customers will get a steal of a deal! For a chance to win just purchase one of the deals. Every purchase you make gets you an entry to the drawing. Also for additional entries refer a friend. Any time a friend that you refer makes a purchase you get an additional entry. The more friends you refer the more likely you are to end up taking home the TV.</p>
         <form method="post" action="refer-form.php">
           <label>Your Email</label>
           <input type="text" name="name" value="email" onFocus="if(this.value=='email'){this.value=''}" onBlur="if(this.value==''){this.value='email'}" />
@@ -104,7 +104,7 @@ if($_SESSION['message']) {
         </form>
         <div class="extra">
           <h2>fine print</h2>
-          <p>Simple paragraph about how to refer a friend. Anything you want to say to your customers.</p>
+          <p>Purchase is required to be entered into the drawing. The drawing will be based upon the email addresses that are submitted and that are associated with purchases. Any submissions with an invalid e-mail address will be void. Multiple refferals are encouraged to increase your odds at winning the HDTV. </p>
         </div>
       </div>
       <div class="footer">
