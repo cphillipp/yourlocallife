@@ -90,10 +90,10 @@ if($_SESSION['message']) {
       </div>
       <div class="main-cat">
         <p class="refer">We are giving away a HD TV! One of the first 500 customers will get a steal of a deal! For a chance to win just purchase one of the deals. Every purchase you make gets you an entry to the drawing. Also for additional entries refer a friend. Any time a friend that you refer makes a purchase you get an additional entry. The more friends you refer the more likely you are to end up taking home the TV.</p>
-        <form method="post" action="refer-form.php">
+       <form method="post" action="refer-form.php">
           <label>Your Email</label>
           <input type="text" name="name" value="email" onFocus="if(this.value=='email'){this.value=''}" onBlur="if(this.value==''){this.value='email'}" />
-          <label>Friends Email</label>
+          <label>Friends Email</label></br>
           <input type="text" name="email" value="email" onFocus="if(this.value=='email'){this.value=''}" onBlur="if(this.value==''){this.value='email'}" />
           <?php
             if(isset($display_message)) {
