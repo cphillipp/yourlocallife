@@ -1,10 +1,3 @@
-<?php
-session_start();
-if($_SESSION['message']) {
-  $display_message = $_SESSION['message'];
-  $_SESSION['message'] = '';
-}
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -82,33 +75,24 @@ if($_SESSION['message']) {
           </ul>-->
         </li>
       </ul>
+      <p><a href="http://www.facebook.com/pages/Yourlocallife/265814173472610" target="http://yourlocallife.pagodabox.com/practice.html"/><b>JOIN US ON FACEBOOK</p><p>
+      <a href="http://www.facebook.com/pages/Yourlocallife/265814173472610" target="http://yourlocallife.pagodabox.com/practice.html" /><img src="images/product/face1.png" align="" border="590" height="40" width="50" /></a></p>
+      </br>            
+      <p><a href="http://yourlocallife.pagodabox.com/referral.php"><img src="images/product/refer.png" height="135"  /></P>
     </div>
     <div class="right">
       <a href="about.html" class="contact">about us</a>
       <div class="top">
-        <h2>Advertise with Us</h2>
+        <h2>Thank You</h2>
       </div>
+      <!-- <img src="images/banner01.jpg" alt="" /> -->
       <div class="main-cat">
-        <p class="refer">With a business modeled after some of the most successful web marketing companies, Your Local Life is destined to succeed. Hard work and dedication are the heart and soul of this company. Each deal is negotiated to not only bring exceptional products and service to the consumer but to help local business grow. These days’ traditional marketing and advertising can be costly and ineffective. With Your Local Life you are guaranteed results or there is absolutely no cost to you. </p>
-        <form method="post" action="advertise-form.php" class="normal">
-          <label>Business Name</label>
-          <input type="text" name="name" value="name" onFocus="if(this.value=='name'){this.value=''}" onBlur="if(this.value==''){this.value='name'}" />
-          <label>Business Address</label>
-          <input type="text" name="address" value="address" onFocus="if(this.value=='address'){this.value=''}" onBlur="if(this.value==''){this.value='address'}" />
-          <label>Business Phone</label>
-          <input type="text" name="phone" value="phone" onFocus="if(this.value=='phone'){this.value=''}" onBlur="if(this.value==''){this.value='phone'}" />
-          <label>Business Email</label>
-          <input type="text" name="email" value="email" onFocus="if(this.value=='email'){this.value=''}" onBlur="if(this.value==''){this.value='email'}" />
-          <?php
-            if(isset($display_message)) {
-              echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
-            }
-          ?>
-          <input type="submit" value="Submit" class="button" />
-        </form>
+        <p class="special">THANK YOU FOR YOUR PURCHASE </P> 
+         
         <div class="extra">
-          <h2></h2>
-          <p></p>
+          <h2>When will you get your voucher</h2>
+          <p>You will Receive your voucher when the deal has ended.
+          Like us on facebook. Refer a friend for your chance to win and HDTV.</p>
         </div>
       </div>
       <div class="footer">
