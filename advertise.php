@@ -40,9 +40,9 @@ if($_SESSION['message']) {
           <ul>
             <li><a href="pocatello/daily-01.html">daily deals</a></li>
             <li><a href="pocatello/vacation-01.html">vacation</a></li>
-            <li><a href="pocatello/activity-01.html">activity</a></li>
+           <!-- <li><a href="pocatello/activity-01.html">activity</a></li>
             <li><a href="pocatello/food-01.html">food</a></li>
-            <li><a href="pocatello/health-01.html">health/beauty</a></li>
+            <li><a href="pocatello/health-01.html">health/beauty</a></li> />-->
           </ul><!--
         </li>
         <li id="idahoFalls"><a href="#link">Idaho Falls</a>
@@ -56,11 +56,11 @@ if($_SESSION['message']) {
         </li>
         <li id="twinFalls"><a href="#link">Magic Valley</a>
           <ul>
-            <li><a href="twin-falls/daily-01.html">daily deals</a></li>
+           <!-- <li><a href="twin-falls/daily-01.html">daily deals</a></li> />-->
             <li><a href="twin-falls/vacation-01.html">vacation</a></li>
-            <li><a href="twin-falls/activity-01.html">activity</a></li>
+            <!--<li><a href="twin-falls/activity-01.html">activity</a></li>
             <li><a href="twin-falls/food-01.html">food</a></li>
-            <li><a href="twin-falls/health-01.html">health/beauty</a></li>
+            <li><a href="twin-falls/health-01.html">health/beauty</a></li> />-->
           </ul><!--
         </li>
         <li id="rexburg"><a href="#link">Rexburg</a>
